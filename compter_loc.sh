@@ -23,10 +23,3 @@ echo "-------------------------------------------"
 # Vous pouvez ajuster la liste des extensions selon vos besoins
 find "$DOSSIER" -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.h" -o -name "*.py" -o -name "*.java" -o -name "*.js" -o -name "*.sh" \) \
     -exec wc -l {} + | sort -n
-
-echo "-------------------------------------------"
-echo "Total de lignes de code :"
-
-# Afficher uniquement le total final
-find "$DOSSIER" -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.h" -o -name "*.py" -o -name "*.java" -o -name "*.js" -o -name "*.sh" \) \
-    -exec wc -l {} + | awk '{total += $1} END {print total " lignes"}'
