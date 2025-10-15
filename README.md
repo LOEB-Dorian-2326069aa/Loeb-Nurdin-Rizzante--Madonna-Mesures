@@ -1,5 +1,5 @@
 # Mesures-Logicielles
 
-Développeur 2 = Dorian Loeb
-Développeur 3 = Arnaud Nurdin
-Développeur 1 = Alexandre RIzzante--Madonna
+Développeur 1 = Dorian Loeb
+Développeur 2 = Arnaud Nurdin
+Développeur 3 = Alexandre RIzzante--Madonna
